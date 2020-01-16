@@ -10,16 +10,16 @@ You may assume that each input would have exactly one solution, and you may not 
  * @return {number[]}
  */
 
- var twoSum = function(nums, target) {
-     // use hashmap to store the differences between target value and numbers
+var twoSum = function (nums, target) {
+    // use hashmap to store the differences between target value and numbers
 
-     let comps = {};
-     if(nums.length){
-        for(let i=0;i<numw.length;i++){
-            if(comps[nums[i]]>=0){
-                return [comps[nums[i]],i];
+    let comps = {};
+    if (nums.length) {
+        for (let i = 0; i < nums.length; i++) {
+            if (comps[nums[i]] >= 0) {
+                return [comps[nums[i]], i];
             }
-            comps[target-nums[i]] = i;
-        } 
-     }
- }
+            comps[target - nums[i]] = i;
+        }
+    }
+}
