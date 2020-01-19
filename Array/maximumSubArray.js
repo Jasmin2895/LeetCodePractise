@@ -8,10 +8,15 @@ Given an integer array nums, find the contiguous subarray (containing at least o
  */
 
 var maxSubArray = function (nums) {
-    let currSum = 0, maxSum = 0;
-    for (let i = 0; i < nums.length; i++) {
-        currSum = Math.max(0, nums[i] + currSum);
-        maxSum = Math.max(currSum, maxSum);
+    if (nums.length === 1) return nums[0];
+
+    let currSum = nums[0], maxSum = nums[0];
+
+    for (let i = 1; i < nums.length; i++) {
+        if (currSum < 0) currSum = nums[i];
+        else currSum = currSum + nums[i];
+
+        if (maxSum < currSum) maxSum = currSum;
     }
     return maxSum;
 }
