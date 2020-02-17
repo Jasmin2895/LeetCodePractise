@@ -42,7 +42,7 @@ MyHashMap.prototype.get = function (key) {
  * @return {void}
  */
 
-MyHashSet.prototype.remove = function (key) {
+MyHashMap.prototype.remove = function (key) {
     delete this.set[key];
 }
 
