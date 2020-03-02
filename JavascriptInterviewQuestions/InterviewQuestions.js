@@ -56,3 +56,10 @@ function foo2() {
 
 }
 //output will be undefined
+
+function func1({ a = 1 } = {}) {
+    console.log("a", a);
+}
+
+//output of func1() = {a:1}
+//output of func1({a:2}) = {a:2}
