@@ -73,3 +73,15 @@ function sayHi(age) {
 
 console.log(sayHi.call(person, 24));
 console.log(sayHi.bind(person, 24));
+//output will be Jasmin is 24 and func
+
+
+//memory reference of a variable 
+let person = { name: "Lydia" };
+const members = [person];
+person = null;
+
+console.log(members);
+/*
+Whenever we declare a set a variable equal to an object, we're not actually giving that variable the value of that object. Instead, we're giving it the value of a reference (or actually pointer) to that object in memory!
+*/
