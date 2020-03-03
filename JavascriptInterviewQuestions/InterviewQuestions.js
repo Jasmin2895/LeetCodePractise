@@ -63,3 +63,13 @@ function func1({ a = 1 } = {}) {
 
 //output of func1() = {a:1}
 //output of func1({a:2}) = {a:2}
+
+// difference between call and bind
+const person = { name: "Jasmin" };
+
+function sayHi(age) {
+    return `${this.name} is ${age}`;
+}
+
+console.log(sayHi.call(person, 24));
+console.log(sayHi.bind(person, 24));
