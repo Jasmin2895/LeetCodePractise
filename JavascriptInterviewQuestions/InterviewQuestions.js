@@ -85,3 +85,151 @@ console.log(members);
 /*
 Whenever we declare a set a variable equal to an object, we're not actually giving that variable the value of that object. Instead, we're giving it the value of a reference (or actually pointer) to that object in memory!
 */
+
+/*
+Write a function f that returns Hello, world!.
+Every line must have at most 2 characters, and the total number of lines must be less than 40.
+*/
+
+[ // With destructuring assignment, start declaring variables
+    ,
+    t
+    ,
+    ,
+    r
+    ,
+    ,
+    i
+    ,
+    ,
+    m
+    ,
+    ,
+    b
+    ,
+    ,
+    i
+    ,
+    ,
+    n
+    ,
+    ,
+    d
+    ,
+    ,
+    H
+    ,
+    ,
+    e
+    ,
+    ,
+    l
+    ,
+    ,
+    l
+    ,
+    ,
+    o
+    ,
+    ,
+    c // Comma
+    ,
+    ,
+    s
+    ,
+    ,
+    w
+    ,
+    ,
+    o
+    ,
+    ,
+    r
+    ,
+    ,
+    l
+    ,
+    ,
+    d
+    ,
+    ,
+    x // Exclamation mark
+]
+    =
+    `
+    t
+    r
+    i
+    m
+    b
+    i
+    n
+    d
+    H
+    e
+    l
+    l
+    o
+    ,
+     
+    w
+    o
+    r
+    l
+    d
+    !
+    `
+f // Start declaring our function
+    =
+    ( // This evaluates to "" or, the String object
+        [
+        ]
+        +
+        [
+        ]
+    )
+    [ // `trim`
+        t
+        +
+        r
+        +
+        i
+        +
+        m
+    ]
+    [ // `bind`
+        b
+        +
+        i
+        +
+        n
+        +
+        d
+    ]
+        ( // Can use parentheses or template tag syntax to call `bind`
+            H
+            +
+            e
+            +
+            l
+            +
+            l
+            +
+            o
+            +
+            c
+            +
+            s
+            +
+            w
+            +
+            o
+            +
+            r
+            +
+            l
+            +
+            d
+            +
+            x
+        )
