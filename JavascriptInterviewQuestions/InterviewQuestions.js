@@ -233,3 +233,8 @@ f // Start declaring our function
             +
             x
         )
+
+// create a password validator
+func1 = function(string){
+   console.log(/^(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9]/.test(string))
+}
