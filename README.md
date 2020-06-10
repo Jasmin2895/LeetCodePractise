@@ -1,3 +1,3 @@
 # LeetCodePractise
 Solutions to leet code problems
-This  folder will contain leet code problems solution data structure wise
+This  folder will contain leet code problems solution which i have solved. The solutions are separated on the basis of data structure.
